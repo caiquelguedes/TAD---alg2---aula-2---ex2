@@ -15,11 +15,11 @@ public:
 };
 void Aluno::definirAluno()
 {
-    cout << "Informe a porra da matricula, filho da puta: ";
+    cout << "Informe a matricula: ";
     cin >> matricula;
     cout << "Informe a idade do lolzero: ";
     cin >> idade;
-    cout << "Informe a nota do idiota: ";
+    cout << "Informe a nota : ";
     for(int i = 0; i < 3; i++)
     {
         cin >> notas[i];
